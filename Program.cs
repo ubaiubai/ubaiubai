@@ -1,36 +1,43 @@
 ﻿using System;
 
-namespace task1
+namespace voter
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string name;
-            int   empid;
-            string emailid;
-            DateTime DOB;
-            int mobienumber;    
-            int salalry;
-            int exp;
 
-            Console.WriteLine("enter your name");
-            name = Console.ReadLine();
-            Console.WriteLine("enter your empid");
-            empid = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter your emailid");
-            emailid = Console.ReadLine();
-            Console.WriteLine("enter your DOB");
-            DOB = Convert.ToDateTime(Console.ReadLine());
-            Console.WriteLine("enter your mobilenumber");
-            mobienumber = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter your salary");
-            salalry = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter your exp");
-            exp = Convert.ToInt32(Console.ReadLine());
+            bool ValidateDate(string date)
+            {
+                try
+                {
+                    string[] dateParts = date.Split('/');
+                    DateTime testDate = new
+                        DateTime(Convert.ToInt32(dateParts[2]),
+                        Convert.ToInt32(dateParts[0]),
+                        Convert.ToInt32(dateParts[1]));
+                    return true;
+                }
+                catch
+                {
+                    // if a test date cannot be created, the
+                    // method will return false
+                    return false;
+                }
 
-            Console.WriteLine("name is "+name+",exp is "+exp+",salary is "+salalry);
-
+                int vote_age;
+                Console.Write("Input the age of the candidate : ");
+                vote_age = Convert.ToInt32(Console.ReadLine());
+                if (vote_age <= 18)
+                {
+                    Console.Write("Sorry, You are not eligible to caste your vote.\n");
+                    Console.Write("You would be able to caste your vote after {0} year.\n\n", 18 - vote_age);
+                }
+                else
+                    Console.Write("Congratulation! You are eligible for casting your vote.\n\n");
+                Console.ReadLine();
+            }
         }
     }
 }
+
