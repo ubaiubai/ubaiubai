@@ -1,43 +1,51 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace voter
+namespace day4_task2
 {
     class Program
     {
         static void Main(string[] args)
         {
+            int[,] companyempDetails;
+            int employeeNo, eAcount;
+            Console.WriteLine("how many employee are working in your company");
+            employeeNo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter account number of your employee");
+            eAcount = Convert.ToInt32(Console.ReadLine());
 
-            bool ValidateDate(string date)
+            companyempDetails = new int[employeeNo, eAcount];
+
+            for (int i = 0; i < employeeNo; i++)
             {
-                try
-                {
-                    string[] dateParts = date.Split('/');
-                    DateTime testDate = new
-                        DateTime(Convert.ToInt32(dateParts[2]),
-                        Convert.ToInt32(dateParts[0]),
-                        Convert.ToInt32(dateParts[1]));
-                    return true;
-                }
-                catch
-                {
-                    // if a test date cannot be created, the
-                    // method will return false
-                    return false;
-                }
+                int temp = 0;
+                Console.WriteLine("ENTER CUSTOMER NAME");
+                string name = Console.ReadLine();
 
-                int vote_age;
-                Console.Write("Input the age of the candidate : ");
-                vote_age = Convert.ToInt32(Console.ReadLine());
-                if (vote_age <= 18)
+                for (int j = 0; j < eAcount; j++)
                 {
-                    Console.Write("Sorry, You are not eligible to caste your vote.\n");
-                    Console.Write("You would be able to caste your vote after {0} year.\n\n", 18 - vote_age);
+
+
+                    switch (j)
+                    {
+                        case 0:
+                            Console.WriteLine("ENTER 1 ACCOUNT BALANCE");
+                            break;
+                        case 1:
+                            Console.WriteLine("ENTER 2 ACCOUNT BALANCE");
+                            break;
+                       
+
+                    }
+
+                    temp = temp + Convert.ToInt32(Console.ReadLine());
+
                 }
-                else
-                    Console.Write("Congratulation! You are eligible for casting your vote.\n\n");
-                Console.ReadLine();
+                Console.WriteLine(name + " total balance :" + temp);
             }
         }
     }
 }
-
