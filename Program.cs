@@ -4,48 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pancard
+namespace TASK2a
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[,] companyempDetails;
-            int employeeNo, eAcount;
-            Console.WriteLine("how many employee are working in your company");
-            employeeNo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter account number of your employee");
-            eAcount = Convert.ToInt32(Console.ReadLine());
-
-            companyempDetails = new int[employeeNo, eAcount];
-
-            for (int i = 0; i < employeeNo; i++)
+            string email;
+            Console.WriteLine("Please Enter your E-mail Id :");
+            email = Console.ReadLine();
+            Regex regex = new Regex(@"^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0 - 9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$",
+            RegexOptions.CultureInvariant | RegexOptions.Singleline);
+            Console.WriteLine($"The email is {email}");
+            bool isValidEmail = regex.IsMatch(email);
+            if (!isValidEmail)
             {
-                int temp = 0;
-                Console.WriteLine("enter customer name");
-                string name = Console.ReadLine();
+                Console.WriteLine($"The email is invalid");
 
-                for (int j = 0; j < eAcount; j++)
-                {
-
-
-                    switch (j)
-                    {
-                        case 0:
-                            Console.WriteLine("enter account 1 detail");
-                            break;
-                        case 1:
-                            Console.WriteLine("enter account 2 detail");
-                            break;
-                       
-
-                    }
-
-                    temp = temp + Convert.ToInt32(Console.ReadLine());
-
-                }
-                Console.WriteLine(name + " total balance :" + temp);
             }
+            else
+            {
+                Console.WriteLine($"The email is valid");
+            }
+
+            Console.Read();
         }
     }
 }
