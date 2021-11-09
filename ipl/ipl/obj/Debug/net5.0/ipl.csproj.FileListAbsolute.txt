@@ -1,0 +1,5 @@
+E:\C#\ipl\ipl\obj\Debug\net5.0\ipl.csproj.AssemblyReference.cache
+E:\C#\ipl\ipl\obj\Debug\net5.0\ipl.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\ipl\ipl\obj\Debug\net5.0\ipl.AssemblyInfoInputs.cache
+E:\C#\ipl\ipl\obj\Debug\net5.0\ipl.AssemblyInfo.cs
+E:\C#\ipl\ipl\obj\Debug\net5.0\ipl.csproj.CoreCompileInputs.cache
