@@ -1,0 +1,16 @@
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.exe
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.deps.json
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.runtimeconfig.json
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.runtimeconfig.dev.json
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.dll
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\ref\jobapp.dll
+C:\Users\ubaii\source\repos\jobapp\jobapp\bin\Debug\net5.0\jobapp.pdb
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.csproj.AssemblyReference.cache
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.AssemblyInfoInputs.cache
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.AssemblyInfo.cs
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.csproj.CoreCompileInputs.cache
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.dll
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\ref\jobapp.dll
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.pdb
+C:\Users\ubaii\source\repos\jobapp\jobapp\obj\Debug\net5.0\jobapp.genruntimeconfig.cache
