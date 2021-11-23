@@ -1,0 +1,16 @@
+E:\C#\positive\positive\bin\Debug\net5.0\positive.exe
+E:\C#\positive\positive\bin\Debug\net5.0\positive.deps.json
+E:\C#\positive\positive\bin\Debug\net5.0\positive.runtimeconfig.json
+E:\C#\positive\positive\bin\Debug\net5.0\positive.runtimeconfig.dev.json
+E:\C#\positive\positive\bin\Debug\net5.0\positive.dll
+E:\C#\positive\positive\bin\Debug\net5.0\ref\positive.dll
+E:\C#\positive\positive\bin\Debug\net5.0\positive.pdb
+E:\C#\positive\positive\obj\Debug\net5.0\positive.csproj.AssemblyReference.cache
+E:\C#\positive\positive\obj\Debug\net5.0\positive.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\positive\positive\obj\Debug\net5.0\positive.AssemblyInfoInputs.cache
+E:\C#\positive\positive\obj\Debug\net5.0\positive.AssemblyInfo.cs
+E:\C#\positive\positive\obj\Debug\net5.0\positive.csproj.CoreCompileInputs.cache
+E:\C#\positive\positive\obj\Debug\net5.0\positive.dll
+E:\C#\positive\positive\obj\Debug\net5.0\ref\positive.dll
+E:\C#\positive\positive\obj\Debug\net5.0\positive.pdb
+E:\C#\positive\positive\obj\Debug\net5.0\positive.genruntimeconfig.cache
